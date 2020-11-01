@@ -13,7 +13,7 @@ import tensorflow as tf
 # In[3]:
 
 
-dataset = pd.read_csv('E202-COMP7117-TD01-00 - clustering.csv')
+dataset = pd.read_csv('clustering.csv')
 dataset['SpecialDay'] = dataset['SpecialDay'].replace({'LOW': 0, 'NORMAL': 1, 'HIGH': 2})
 dataset['VisitorType'] = dataset['VisitorType'].replace({'Returning_Visitor': 2, 'New_Visitor': 1, 'Other': 0})
 dataset['Weekend'] = dataset['Weekend'].replace({True: 1, False: 0})
