@@ -60,7 +60,7 @@ def feed_forward():
     return tf.sigmoid(y2)
     
 #dataset filename
-filename = 'E202-COMP7117-TD01-00 - classification.csv'
+filename = 'classification.csv'
 
 #load dataset into feature and target
 feature, target = getDataset(filename)    
